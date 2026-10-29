@@ -1,0 +1,70 @@
+.carrinho-vazio{
+
+    font-size: 30px;
+
+}
+
+
+.carrinho-container{
+
+    
+     text-align: center;
+     
+}
+
+.carrinho-conteudo{
+
+     border: 1px solid rgba(0, 0, 0, 0.264);
+     padding: 10px;
+     border-radius: 10px;
+     background-color: white;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.544);
+     margin-bottom: 50px;
+
+}
+
+.controles-qtd{
+
+     padding: 10px;
+}
+
+.diminuir{
+
+    margin-right: 3px;
+
+}
+
+.aumentar{
+
+    margin-left: 8px;
+}
+
+.total {
+
+    color: rgb(4, 157, 4);
+}
+
+.info-item h3 {
+    font-size: 25px;
+
+}
+
+.btn-remover {
+     padding: 10px;
+     border-radius: 10px;
+     margin-top: 9px;
+     margin-bottom: 10px;
+}
+
+.btn-remover:hover{
+
+    background-color: rgba(239, 41, 41, 0.672);
+    transition-duration: 0.3s;
+
+}
+
+.carrinho-container h1{
+
+    font-size: 40px;
+    margin-top: 40px;
+}

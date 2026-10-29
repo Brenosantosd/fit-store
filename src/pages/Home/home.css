@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.Container-Produtos{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.tituloHome{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 50px;
+}
+
+.preco{
+     margin-top:  -10px;
+     font-size: 20px;
+
+
+}
+
+/* Limita a imagem e evita que ela distorça */
+.produtos img { 
+    width: 100%;
+    height: 180px;
+    object-fit: contain; /* Mantém a proporção original do produto sem cortar ou esticar */
+}
+
+.produtos {
+    width: 200px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.produtos:hover {
+
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.275);
+   transition-duration: 0.2s;
+
+}
+
+.botaoAdicionar{
+     padding: 8px;
+     border-radius: 5px;
+     font-family: "Inter", sans-serif;
+     width: 100%;
+}
+
+.botaoAdicionar:hover{
+
+     background-color: rgb(166, 239, 141);
+     
+}
+    
+
+
